@@ -171,6 +171,6 @@ Free to use, modify, distribute, and use commercially.
 
 ---
 
-Design: Ikeda Fuyuya × Claude
-Reviews: ChatGPT, Gemini
+Design: collaborative design team
+Reviews: external audit, Gemini
 Foundation: ARK (Alaya V5 — Digital Dharma OS)
