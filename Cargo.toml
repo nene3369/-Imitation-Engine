@@ -1,0 +1,17 @@
+[package]
+name = "consciousness-kernel"
+version = "11.0.0"
+edition = "2021"
+description = "Consciousness modeling system grounded in Free Energy Principle and Abhidharma epistemology"
+license = "MIT"
+
+[features]
+default = []
+crypto = ["blake3"]
+serialization = ["serde", "serde_json"]
+prod = ["crypto"]
+
+[dependencies]
+blake3 = { version = "1", optional = true }
+serde = { version = "1", features = ["derive"], optional = true }
+serde_json = { version = "1", optional = true }
